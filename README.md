@@ -122,7 +122,7 @@ aws dynamodb query \
     --expression-attribute-values  '{":v_song":{"S":"Wasting Love"},":v_year":{"S":"1992"} }'
 ```
 
-- Removendo dado de uma tabela por item sua chave
+- Removendo dado de uma tabela por item usando sua chave
 
 ```
 aws dynamodb delete-item \
